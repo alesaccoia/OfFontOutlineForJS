@@ -10,6 +10,20 @@ The command line syntax is
 OfRenderJSAlphabet fontName dimensionInPixel string [minimumDistanceBetweenPointsInPx]
 
 It will output a JS formatted array to the standard console output, containing the segments that form the string of characters. Of course it's possible to pipe the output in a file.
+if string equals ALPHABET, the whole alphabet will be output. Example output:
+
+var charsOutlines = [];
+charsOutlines['0'] = [];
+charsOutlines['0'][0] = [
+  { x: 35.9844, y: -76},
+  { x: 30.2559, y: -75.5861},
+  { x: 24.9739, y: -74.3385},
+  { x: 20.1859, y: -72.2481},
+  { x: 15.9395, y: -69.306},
+  { x: 12.2822, y: -65.5033},
+  { x: 9.26165, y: -60.831},
+  .....
+];
 
 ### Arguments
 
